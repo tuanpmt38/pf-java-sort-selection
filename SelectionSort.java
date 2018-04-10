@@ -5,7 +5,7 @@ public class SelectionSort {
             int elementMin = list[i];
             int elemnetIndex = i;
             for (int j = i + 1; j < list.length; j++) {
-                if (elementMin < list[j]) {
+                if (elementMin > list[j]) {
                     elementMin = list[j];
                     elemnetIndex = j;
                 }
